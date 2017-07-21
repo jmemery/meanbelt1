@@ -1,0 +1,5 @@
+npm install
+npm run build
+npm start if deployment doesn't work... which currently it does not.
+
+this code was refactored from a couple other projects ive done or followed along with. Probably will be taking the exam again next week if possible. 

@@ -11,7 +11,7 @@ var messageRoutes = require('./routes/messages');
 var userRoutes = require('./routes/user');
 
 var app = express();
-mongoose.connect('localhost:27017/node-angular');
+mongoose.connect('mongodb://jase:123john@ds115583.mlab.com:15583/meanbelt');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -43,3 +43,5 @@ app.use(function (req, res, next) {
 
 
 module.exports = app;
+
+//app.listen(8080, ()=> {console.log('Listening on 8080')})
